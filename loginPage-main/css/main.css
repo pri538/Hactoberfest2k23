@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(6px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 20px;
+
+}
+
+img{
+    max-width: 80px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container-imagem{
+    text-align: center;
+}
+
+
+input{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+}
+
+button{
+    width: 100%;
+    border:none;
+    border-radius: 20px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Sarala', sans-serif;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+
+a{
+    color:rgb(146, 145, 145);
+}
+
+a:hover{
+    color: rgba(255, 255, 255);
+}
+
+.container-texto-rodape{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Sarala', sans-serif;
+}
+
+
